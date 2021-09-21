@@ -16,7 +16,7 @@ ul{
 
 .mainButton{
     background-color: rgb(247, 107, 43);
-    color:blanchedalmond;
+    color:rgb(253, 253, 253);
     border: 0px;
     padding: 5px 10px;
     border-radius: 8px;
@@ -27,5 +27,21 @@ ul{
 .mainButton:hover{
     cursor: pointer;
     box-shadow: 3px 3px orangered;
+    transform: scale(1.1);
+}
+
+.secondaryButton{
+    background-color: rgb(42, 20, 241);
+    color:rgb(255, 255, 255);
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-weight: bolder;
+    box-shadow: 1px 1px rgb(17, 6, 122);
+}
+
+.secondaryButton:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px rgb(10, 17, 105);
     transform: scale(1.1);
 }
