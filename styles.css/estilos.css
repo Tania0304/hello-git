@@ -14,6 +14,7 @@ ul{
     padding: 10px;
 }
 
+<<<<<<< HEAD
 .logo{
     height: 70px;
 }
@@ -21,15 +22,34 @@ ul{
 .mainButton{
     background-color: rgb(247, 107, 43);
     color:blanchedalmond;
+=======
+.button{
+    color:rgb(253, 253, 253);
+>>>>>>> 6-crear-boton-login
     border: 0px;
     padding: 5px 10px;
     border-radius: 8px;
-    font-weight: bolder;
-    box-shadow: 1px 1px orangered;
+    font-weight: bolder;    
+}
+
+.button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.mainButton{
+    background-color: rgb(247, 107, 43);
 }
 
 .mainButton:hover{
-    cursor: pointer;
-    box-shadow: 3px 3px orangered;
-    transform: scale(1.1);
+    box-shadow: 1px 1px orangered;
+}
+
+.secondaryButton{
+    background-color: rgb(42, 20, 241);
+    box-shadow: 1px 1px rgb(17, 6, 122);
+}
+
+.secondaryButton:hover{
+    box-shadow: 3px 3px rgb(10, 17, 105);
 }
