@@ -17,3 +17,19 @@ ul{
 .logo{
     height: 70px;
 }
+
+.mainButton{
+    background-color: rgb(247, 107, 43);
+    color:blanchedalmond;
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-weight: bolder;
+    box-shadow: 1px 1px orangered;
+}
+
+.mainButton:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px orangered;
+    transform: scale(1.1);
+}
