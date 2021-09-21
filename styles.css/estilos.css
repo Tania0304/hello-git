@@ -10,6 +10,52 @@ ul{
 
 .navbar{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     padding: 10px;
+}
+
+.button{
+    color:rgb(253, 253, 253);
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-weight: bolder;    
+}
+
+.button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.mainButton{
+    background-color: rgb(247, 107, 43);
+}
+
+.mainButton:hover{
+    box-shadow: 1px 1px orangered;
+}
+
+.secondaryButton{
+    background-color: rgb(42, 20, 241);
+    box-shadow: 1px 1px rgb(17, 6, 122);
+}
+
+.secondaryButton:hover{
+    box-shadow: 3px 3px rgb(10, 17, 105);
+}
+
+.buscar{
+    background-color: white;
+    border: 1px solid gray;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+.buscar:focus-within{
+    border: 1px solid blue;
+}
+
+.buscar > input{ 
+    outline: none;
+    border: 0px;
 }
