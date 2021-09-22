@@ -12,9 +12,9 @@ ul{
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    background-color: rgb(204, 201, 201);
-    border-bottom: 1px gray;
-    box-shadow: 2px 2 px rgb(88, 85, 85);
+    background-color: rgb(250, 140, 36);
+    border-bottom: 10px gray;
+    box-shadow: 2px 2px rgb(250, 172, 26);
 }
 
 .navbar > li{
@@ -29,9 +29,10 @@ ul{
 .button{
     color:rgb(253, 253, 253);
     border: 0px;
-    padding: 5px 10px;
+    padding: 5px 20px;
     border-radius: 8px;
-    font-weight: bolder;    
+    font-weight: bolder;
+    font-size: 18px;    
 }
 
 .button:hover{
@@ -40,7 +41,7 @@ ul{
 }
 
 .mainButton{
-    background-color: rgb(247, 107, 43);
+    background-color: rgb(250, 140, 36);
 }
 
 .mainButton:hover{
@@ -58,7 +59,7 @@ ul{
 
 .buscar{
     background-color: white;
-    border: 1px solid gray;
+    border: 1px solid orange;
     padding: 4px;
     border-radius: 8px;
     width: 300px;
@@ -67,7 +68,7 @@ ul{
 }
 
 .buscar:focus-within{
-    border: 1px solid rgb(255, 153, 0);
+    border: 1px solid rgb(218, 85, 32);
 }
 
 .buscar > input{ 
@@ -83,6 +84,19 @@ ul{
     color: orange;
 }
 
+.titulo{
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.seccionCard{
+    margin: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
 .imagenes{
     display: flex;
 }
@@ -91,13 +105,47 @@ ul{
     margin: 10px;
 }
 
+.textoNombre{
+    color: rgb(83, 81, 81);
+    margin: 5px;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    display: flex;
+    justify-content: center;
+}
+
+.breedDatos{
+    display: flex;
+    justify-content: space-around;
+    margin: 3px;
+    padding:3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.iconHeart{
+    color: red;
+}
+
+.iconPost{
+    cursor: pointer;
+}
+
 .contenedorImagen{
     width: 240 px;
     height: 350px;
     display: flex;
+    margin-bottom: 5px;
+}
+
+.contenedorImagen:hover{
+    cursor: pointer;
+    transform: scale(1.02);
 }
 
 .contenedorImagen > img{
     object-fit: scale-down;
-}
+    width: 100%;
+    border-radius: 10%;
+}    
 
