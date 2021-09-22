@@ -82,3 +82,22 @@ ul{
 .iconSearch:hover{
     color: orange;
 }
+
+.imagenes{
+    display: flex;
+}
+
+.breedImagenes{
+    margin: 10px;
+}
+
+.contenedorImagen{
+    width: 240 px;
+    height: 350px;
+    display: flex;
+}
+
+.contenedorImagen > img{
+    object-fit: scale-down;
+}
+
